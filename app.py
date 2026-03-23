@@ -7,7 +7,3 @@ app = Flask (__name__)
 @app.route ('/') #in (/name of site page) 
 def home():
     return ren_templ('index.html') # here in () we indicate the path to the file of the desired page {with }
-
-if __name__ == '__main__':
-    app.run(debug=True)
-    
